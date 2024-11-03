@@ -1,0 +1,33 @@
+body{
+    font-family: "Roboto", sans-serif;
+    padding: 0px 0px;
+}
+nav{
+    background-color:black;
+    color: black;
+    padding : 20px 20px; 
+}
+.navTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search{
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    padding: 10px 20px;
+    border-radius: 10px ;
+}
+.navBottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.menuItem{
+    margin-right: 50px;
+    cursor: pointer;
+    color: gray;
+    font-weight: 400;
+}
